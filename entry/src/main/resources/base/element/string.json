@@ -1,0 +1,43 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Unit Converter"
+    },
+    { "name": "measure", "value": "Measure:" },
+    { "name": "conversion_prompt", "value": "Enter a value" },
+    { "name": "from", "value": "From:" },
+    { "name": "to", "value": "To:" },
+    { "name": "invalid_input_value", "value": "Invalid input value" },
+    { "name": "measure_length", "value": "Length" },
+    { "name": "measure_pressure", "value": "Pressure" },
+    { "name": "measure_temperature", "value": "Temperature" },
+    { "name": "measure_volume", "value": "Volume" },
+    { "name": "measure_weight", "value": "Weight" },
+    { "name": "unit_meter", "value": "Meter [m]" },
+    { "name": "unit_kilometer", "value": "Kilometer [km]" },
+    { "name": "unit_mile", "value": "Mile [mi]" },
+    { "name": "unit_foot", "value": "Foot [ft]" },
+    { "name": "unit_inch", "value": "Inch [in]" },
+    { "name": "unit_gram", "value": "Gram [g]" },
+    { "name": "unit_kilogram", "value": "Kilogram [kg]" },
+    { "name": "unit_pound", "value": "Pound [lbs]" },
+    { "name": "unit_celsius", "value": "Celsius [\u2103]" },
+    { "name": "unit_kelvin", "value": "Kelvin [K]" },
+    { "name": "unit_fahrenheit", "value": "Fahrenheit [\u2109]" },
+    { "name": "unit_liter", "value": "Liter [L,l]" },
+    { "name": "unit_gallon_us", "value": "Gallon US [gal]" },
+    { "name": "unit_gallon_uk", "value": "Gallon UK [gal]" },
+    { "name": "unit_pascal", "value": "Pascal [Pa]" },
+    { "name": "unit_bar", "value": "Bar [bar]" },
+    { "name": "unit_psi", "value": "Psi [psi]" }
+  ]
+}

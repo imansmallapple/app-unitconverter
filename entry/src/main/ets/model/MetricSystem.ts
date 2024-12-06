@@ -1,0 +1,1 @@
+export const Kilo = 1000;
