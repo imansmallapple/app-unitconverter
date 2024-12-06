@@ -121,7 +121,7 @@ We welcome contributions from the community! If you have suggestions for improve
 
 ## License
 
-This project is licensed under the Apache License version 2.0. See the [LICENSE](LICENsE) file for more details.
+This project is licensed under the Apache License version 2.0. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
