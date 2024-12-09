@@ -11,6 +11,9 @@ This repository is under constant development/refactor since the project is desi
 4. **Temperature** - convertion between celsius, kelvin, fahrenheit.
 5. **Pressure** - convertion beetween pascal, bar, psi.
 
+## Screenshot 
+Here is a screenshot showing the main view of the application: ![Sceenshot](./app_screenshot.jpg)
+
 ## Usage
 
 1. Open the application.
