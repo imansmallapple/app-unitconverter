@@ -1,4 +1,24 @@
-export const unitLabels = {
+interface UnitLabels {
+  meter: Resource
+  kilometer: Resource
+  mile: Resource
+  foot: Resource
+  inch: Resource
+  gram: Resource
+  kilogram: Resource
+  pound: Resource
+  celsius: Resource
+  kelvin: Resource
+  fahrenheit: Resource
+  liter: Resource
+  gallon_us: Resource
+  gallon_uk: Resource
+  pascal: Resource
+  bar: Resource
+  psi: Resource
+}
+
+export const unitLabels: UnitLabels = {
   meter: $r('app.string.unit_meter'),
   kilometer: $r('app.string.unit_kilometer'),
   mile: $r('app.string.unit_mile'),

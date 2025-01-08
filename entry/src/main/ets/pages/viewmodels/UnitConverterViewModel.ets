@@ -21,8 +21,8 @@ export class UnitConverterViewModel {
   private measureFactory?: MeasureFactory;
   private measureIndex: number = 0;
   units: Unit[] = [];
-  sourceUnit?: MeasurementUnit;
-  targetUnit?: MeasurementUnit;
+  sourceUnit!: MeasurementUnit;
+  targetUnit!: MeasurementUnit;
   conversionResult: string = '';
   value: string = '';
   conversionError: ConversionError = ConversionError.None;

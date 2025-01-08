@@ -10,7 +10,7 @@ export struct UnitSelector {
   @ObjectLink value: MeasurementUnit
   onUnitChange?: () => void;
 
-  private resManager: ResourceHelper;
+  private resManager!: ResourceHelper;
 
   aboutToAppear(): void {
     this.resManager = new ResourceHelper(getContext(this));
@@ -20,8 +20,8 @@ export struct UnitSelector {
     this.resManager?.release();
   }
 
-  getLabel(unit?: Unit): string {
-    return this.resManager.getString(unitLabels[unit], unit);
+  getLabel(unit: Unit): string {
+    return this.resManager.getString(Object(unitLabels)[unit], unit);
   }
   getSelected(): number {
     if (this.value) return this.units.indexOf(this.value.unit);

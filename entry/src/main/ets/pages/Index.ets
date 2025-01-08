@@ -7,7 +7,7 @@ import { UnitConverterViewModel, ConversionError } from './viewmodels/UnitConver
 @Component
 struct Index {
   @State unitConverter: UnitConverterViewModel = new UnitConverterViewModel();
-  private resManager: ResourceHelper;
+  private resManager!: ResourceHelper;
 
   aboutToAppear(): void {
     this.resManager = new ResourceHelper(getContext());
@@ -23,7 +23,7 @@ struct Index {
 
   getCurrentMeasureLabel(): string {
     const measure = this.unitConverter.getCurrentMeasure();
-    return this.resManager.getString(measureLabels[measure], measure);
+    return this.resManager.getString(Object(measureLabels)[measure], measure);
   }
 
   onValueChange(value: string) {

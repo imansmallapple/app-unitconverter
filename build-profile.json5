@@ -4,22 +4,23 @@
       {
         "name": "default",
         "material": {
-          "certpath": "C:/Users/s60067976/.ohos/config/openharmony/default_UnitConverter_YIRo4enaYT8KQkl90PrVnmBUrCYibtAP81DoU8AZ0KU=.cer",
-          "storePassword": "0000001B1DF696BA23AC746E6A107EB5871CE01BD86D80566A41B1E871B5E35B627AFC5DAA0407C8CBDDD4",
+          "certpath": "C:/Users/c84381641/.ohos/config/openharmony/default_app-unitconverter_QgjwuM-M_GOFjSxX4f7kBlPJzOwQXc7D6GCUeNhUrmE=.cer",
+          "storePassword": "00000019568491E919712120B96CA5FB4138ABC7465DC70C6B2E98AF7B6FC73348745C9B6B4C72CBC8",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B9BAE7F3CDB551CC3CAD5DDDD627BCDF39E43B9F2C4FA694E4A03AEA9D23486AE56D511B7BE8306",
-          "profile": "C:/Users/s60067976/.ohos/config/openharmony/default_UnitConverter_YIRo4enaYT8KQkl90PrVnmBUrCYibtAP81DoU8AZ0KU=.p7b",
+          "keyPassword": "00000019B1D5F835F08E26F07161D2C7004D1891F02524897B71532BBB237F50D0876B7CFEDA957A94",
+          "profile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-unitconverter_QgjwuM-M_GOFjSxX4f7kBlPJzOwQXc7D6GCUeNhUrmE=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:/Users/s60067976/.ohos/config/openharmony/default_UnitConverter_YIRo4enaYT8KQkl90PrVnmBUrCYibtAP81DoU8AZ0KU=.p12"
+          "storeFile": "C:/Users/c84381641/.ohos/config/openharmony/default_app-unitconverter_QgjwuM-M_GOFjSxX4f7kBlPJzOwQXc7D6GCUeNhUrmE=.p12"
         }
       }
     ],
-    "compileSdkVersion": 9,
-    "compatibleSdkVersion": 9,
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
+        "compileSdkVersion": 11,
+        "compatibleSdkVersion": 11,
+        "runtimeOS": "OpenHarmony",
       }
     ],
     "buildModeSet": [

@@ -7,11 +7,14 @@ export class ResourceHelper {
     this.resManager = context.resourceManager;
   }
 
-  release = () => this.resManager?.release();
+  release(): void {
+    this.resManager?.release()
+  }
 
   getString(resource: Resource, defaultValue: string = ''): string {
     let result: string = defaultValue;
-    try {;
+    try {
+      ;
       result = this.resManager.getStringSync(resource);
     } catch (e) {
       console.error(`resourceManager.getStringSync failed, error code: ${e.code}, message: ${e.message}.`)
