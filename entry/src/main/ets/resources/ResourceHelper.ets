@@ -1,14 +1,10 @@
-import resourceManager from '@ohos.resourceManager';
+import { resourceManager } from '@kit.LocalizationKit';
 
 export class ResourceHelper {
   private resManager: resourceManager.ResourceManager;
 
   constructor(context: Context) {
     this.resManager = context.resourceManager;
-  }
-
-  release(): void {
-    this.resManager?.release()
   }
 
   getString(resource: Resource, defaultValue: string = ''): string {

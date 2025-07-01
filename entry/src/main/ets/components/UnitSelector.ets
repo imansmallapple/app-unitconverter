@@ -16,10 +16,6 @@ export struct UnitSelector {
     this.resManager = new ResourceHelper(getContext(this));
   }
 
-  aboutToDisappear() {
-    this.resManager?.release();
-  }
-
   getLabel(unit: Unit): string {
     return this.resManager.getString(Object(unitLabels)[unit], unit);
   }

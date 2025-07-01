@@ -13,10 +13,6 @@ struct Index {
     this.resManager = new ResourceHelper(getContext());
   }
 
-  aboutToDisappear() {
-    this.resManager?.release();
-  }
-
   getMeasureLabel(measure: string): Resource {
     return $r(`app.string.measure_${measure}`);
   }
